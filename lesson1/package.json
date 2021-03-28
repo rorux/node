@@ -1,0 +1,22 @@
+{
+  "name": "lesson1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "audio-loader": "^1.0.3",
+    "audio-play": "^2.3.1",
+    "audio-sink": "^1.1.6",
+    "audio-speaker": "^1.5.0",
+    "chalk": "^4.1.0",
+    "gm": "^1.23.1",
+    "play-sound": "^1.1.3",
+    "say": "^0.16.0"
+  }
+}
