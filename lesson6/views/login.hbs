@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новости</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+
+<body>
+    <h2>Вход на сайт</h2>
+    <form class="enter" method="POST" action="/auth/login/">
+        <label>
+            Никнейм<br>
+            <input type="text" name="username" required="required">
+        </label><br>
+        <label>
+            Пароль<br>
+            <input type="password" name="password" required="required">
+        </label><br>
+        <label>
+            Запомнить меня
+            <input type="checkbox" name="remember">
+        </label><br>
+        <button type="submit">Войти</button>
+    </form>
+</body>
+
+</html>
