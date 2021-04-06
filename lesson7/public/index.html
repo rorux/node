@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Генератор чисел</title>
+</head>
+
+<body>
+    <div id="app">
+        <button @click="getList()">Получить число</button><br>
+        <button @click="createDigit()">Добавить цифру</button><br>
+        <button @click="deleteDigit()">Удалить цифру</button><br>
+        <button @click="changeDigit()">Изменить цифру</button><br>
+        <p class="number">
+            <span v-for="item in list">{{ item }}</span>
+        </p>
+    </div>
+    <script src="https://unpkg.com/vue@next"></script>
+    <script type="module" defer src="js/main.js"></script>
+</body>
+
+</html>
